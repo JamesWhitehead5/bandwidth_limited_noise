@@ -1,5 +1,6 @@
-#generate low spatial frequency images
+import numpy as np
 
+#generate low spatial frequency images
 def gen_noise_bw(resolution: Tuple[int, int], bandwidth: Tuple[int, int]) -> np.ndarray:
 
   nx, ny = resolution
